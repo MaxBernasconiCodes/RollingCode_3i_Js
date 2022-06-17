@@ -51,6 +51,7 @@ let objeto = {
     apellido:'Bernasconi',
     edad:36
 }
+arreglo[2] = false;
 objeto.nombre = 'Maximiliano';
 
 console.log(objeto.nombre);
