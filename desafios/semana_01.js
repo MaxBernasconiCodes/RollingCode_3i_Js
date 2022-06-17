@@ -9,6 +9,10 @@ function sumarotia(numero) {}
 
 
 
+
+
+sumarotia(5);
+sumatoria(10);
 /*--------------------------------------------------------------*/
 //Tabla de multiplicar
 // Crear una funcion que devuelva un array nuevo en donde esten los multiplos del 1 al 10 de el numero pasado y mostrarlo por consola, por ej:
@@ -16,6 +20,11 @@ function sumarotia(numero) {}
 // tablaDe(2) devolveria [2,4,6,8,10,12,14,16,18,20]
 /*--------------------------------------------------------------*/
 function tablaDe(numero) {}
+
+
+tablaDe(5);
+tablaDe(2);
+
 
 
 
