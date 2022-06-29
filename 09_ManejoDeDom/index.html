@@ -133,8 +133,8 @@
       <div id="productos" class="d-grid m-auto p-4 gap-1 col-12 col-lg-8">
         <div class="row gap-1 justify-content-around align-items-center">
           <!-- Card 1 Inicio -->
-          <div
-            class="col-12 col-sm-5 card d-grid bg-dark text-bg-dark p-0 shadow overflow-hidden"
+          <div id="card1"
+            class="card col-12 col-sm-5  d-grid bg-dark text-bg-dark p-0 shadow overflow-hidden"
           >
             <div class="row">
               <div
@@ -168,10 +168,11 @@
                   <div class="carousel-item active" data-bs-interval="false">
                     <picture>
                       <source
+                      id="card1Img1Source"
                         media="(min-width:1400px)"
                         srcset="https://picsum.photos/150/250?random=4"
                       />
-                      <img
+                      <img inventado="un valor" id="card1Img1Img"
                         src="https://picsum.photos/200/150?random=4"
                         class="d-block w-100"
                         alt="..."
@@ -180,11 +181,11 @@
                   </div>
                   <div class="carousel-item" data-bs-interval="false">
                     <picture>
-                      <source
+                      <source id="card1Img2Source"
                         media="(min-width:1400px)"
                         srcset="https://picsum.photos/150/250?random=5"
                       />
-                      <img
+                      <img id="card1Img2Img"
                         src="https://picsum.photos/200/150?random=5"
                         class="d-block w-100"
                         alt="..."
@@ -193,11 +194,11 @@
                   </div>
                   <div class="carousel-item" data-bs-interval="false">
                     <picture>
-                      <source
+                      <source id="card1Img3Source"
                         media="(min-width:1400px)"
                         srcset="https://picsum.photos/150/250?random=6"
                       />
-                      <img
+                      <img id="card1Img3Img"
                         src="https://picsum.photos/200/150?random=6"
                         class="d-block w-100"
                         alt="..."
@@ -233,8 +234,8 @@
               <div
                 class="card-body col-12 col-lg-7 d-flex flex-column justify-content-between"
               >
-                <h5 class="card-title">Titulo del Producto</h5>
-                <p class="card-text">
+                <h5 id="Card1Titulo" class="card-title">Titulo del Producto</h5>
+                <p  id="Card1Descripcion"class="card-text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Fuga, modi?
                 </p>
@@ -245,6 +246,7 @@
           <!-- Card 1 Fin -->
           <!-- Card 2 Inicio -->
           <div
+          id="card2"
             class="col-12 col-sm-5 card d-grid bg-dark text-bg-dark p-0 shadow overflow-hidden"
           >
             <div class="row">
@@ -362,7 +364,7 @@
         <div
           class="col-12 d-flex flex-column p-2 px-lg-5 py-lg-2 justify-content-around align-items-center align-items-lg-start col-lg-4 text-bg-dark"
         >
-          <h2 class="text-center">Nuestras Sociales</h2>
+          <h2 id="tituloSociales" class="text-center">Nuestras Sociales</h2>
           <div class="font-monospace font-bold fs-4">
             <div>
               <i class="fa-brands fa-instagram"></i>
@@ -420,9 +422,7 @@
         >
           <h2 class="m-auto">¿Donde estamos?</h2>
           <ul class="list-unstyled text-center m-auto">
-            <li class="text-center decoration-none">
-              Central: Calle callosa 69
-            </li>
+            <li class="text-center decoration-none"><p>Central: Calle callosa 69</p></li>
             <li>Suc. Norte: Winterfell 5</li>
           </ul>
           <div
@@ -519,5 +519,6 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
