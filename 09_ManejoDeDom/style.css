@@ -63,3 +63,29 @@ transition-duration: 0.01ms !important;
 scroll-behavior: auto !important;
   }
 }
+
+/*
+divPrincipal.style.border = '1px solid black';
+divPrincipal.style.borderRadius = '15px';
+divPrincipal.style.width = '150px';
+divPrincipal.style.height = '150px';
+divPrincipal.style.margin = 'auto';
+divPrincipal.style.backgroundColor = '#FFFFFF';
+*/
+
+.cardExtraCreada{
+  border : 1px solid black;
+  border-radius : 15px;
+  width : 150px;
+  height : 150px;
+  margin : auto;
+  background-color : #FFFFFF;
+}
+
+.hide{
+  display: none;
+}
+
+.error{
+  outline: red 3px solid;
+}

@@ -16,8 +16,12 @@
       src="https://kit.fontawesome.com/1f0095e90c.js"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js" defer></script>
+    <script src="productos.js" defer></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body class="d-grid bg-secondary">
+    
     <header class="row overflow-hidden">
       <nav class="navbar col-12 navbar-expand-lg navbar-dark bg-dark px-4">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -357,6 +361,11 @@
           </div>
           <!-- Card 2 Fin -->
         </div>
+        <div>
+          <input  id="inpTitulo" type="text" placeholder="titulo">
+          <input   id="inpImagenURL" type="url" placeholder="Imagen">
+          <button onclick="addProducto()" id="btnAgregar">Agregar</button>
+        </div>
       </div>
     </main>
     <footer class="d-grid bg-dark text-bg-dark">
@@ -403,6 +412,7 @@
               class="form-control"
               id="inpEmail"
               placeholder="email@ejemplo.com"
+              disabled
             />
           </div>
           <div class="mb-3 w-100 text-center p-4">
@@ -415,6 +425,7 @@
               rows="3"
               placeholder="Mandanos algo con cariño &#128523;"
             ></textarea>
+            <input type="submit" class="btn btn-primary" value="Enviar"></input>
           </div>
         </form>
         <div
@@ -519,6 +530,6 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
+   
   </body>
 </html>
