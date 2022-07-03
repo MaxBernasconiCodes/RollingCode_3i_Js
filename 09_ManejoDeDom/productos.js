@@ -37,3 +37,11 @@ function checkearSinMayusculas() {
     : inputTitulo.classList.remove("error");
 }
 
+function cambioDeFondo(){
+  let color = document.getElementById("btnCambio").value;
+  console.log(color);
+}
+function checkState(){
+  let status = document.getElementById("checkboxAgregar").checked;
+  console.log(status);
+}
